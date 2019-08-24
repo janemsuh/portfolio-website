@@ -274,6 +274,10 @@ input, select, textarea {
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 		}
 
+		h2.major {
+			display: none;
+		}
+
 	h2 {
 		font-size: 1.2em;
 	}
@@ -4028,16 +4032,17 @@ input, select, textarea {
 	}
 
 		#footer .inner > * {
-			display: none;
 			width: 100%;
 		}
 
 		#footer .inner form {
+			display: none;
 			margin: 0 3em 0 0;
 			width: calc(50% - 1.5em);
 		}
 
 		#footer .inner .contact {
+			display: none;
 			width: calc(50% - 1.5em);
 		}
 
@@ -4068,6 +4073,10 @@ input, select, textarea {
 
 				#footer .inner .copyright li a {
 					color: inherit;
+				}
+
+				#footer .inner p {
+					display: none;
 				}
 
 	@media screen and (max-width: 1280px) {
